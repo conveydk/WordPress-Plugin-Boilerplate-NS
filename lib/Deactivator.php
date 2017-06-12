@@ -3,14 +3,14 @@
 /**
  * Fired during plugin deactivation
  *
- * @link       http://example.com
+ * @link       https://convey.dk
  * @since      1.0.0
  *
  * @package    PluginName
  * @subpackage PluginName/includes
  */
 
-namespace Vendor_Name\Plugin_Name;
+namespace Convey\Plugin_Name;
 
 /**
  * Fired during plugin deactivation.
@@ -20,19 +20,19 @@ namespace Vendor_Name\Plugin_Name;
  * @since      1.0.0
  * @package    PluginName
  * @subpackage PluginName/includes
- * @author     Your Name <email@example.com>
+ * @author     CONVEY <kontakt@convey.dk>
  */
-class Deactivator {
+class Deactivator
+{
 
-	/**
-	 * Short Description. (use period)
-	 *
-	 * Long Description.
-	 *
-	 * @since    1.0.0
-	 */
-	public static function deactivate() {
-
-	}
-
+    /**
+     * Short Description. (use period)
+     *
+     * Long Description.
+     *
+     * @since    1.0.0
+     */
+    public static function deactivate()
+    {
+    }
 }

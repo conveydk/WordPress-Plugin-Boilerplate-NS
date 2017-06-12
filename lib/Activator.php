@@ -3,14 +3,14 @@
 /**
  * Fired during plugin activation
  *
- * @link       http://example.com
+ * @link       https://convey.dk
  * @since      1.0.0
  *
  * @package    PluginName
  * @subpackage PluginName/includes
  */
 
-namespace Vendor_Name\Plugin_Name;
+namespace Convey\Plugin_Name;
 
 /**
  * Fired during plugin activation.
@@ -20,19 +20,19 @@ namespace Vendor_Name\Plugin_Name;
  * @since      1.0.0
  * @package    PluginName
  * @subpackage PluginName/includes
- * @author     Your Name <email@example.com>
+ * @author     CONVEY <kontakt@convey.dk>
  */
-class Activator {
+class Activator
+{
 
-	/**
-	 * Short Description. (use period)
-	 *
-	 * Long Description.
-	 *
-	 * @since    1.0.0
-	 */
-	public static function activate() {
-
-	}
-
+    /**
+     * Short Description. (use period)
+     *
+     * Long Description.
+     *
+     * @since    1.0.0
+     */
+    public static function activate()
+    {
+    }
 }

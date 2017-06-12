@@ -1,31 +1,38 @@
 {
-    "name": "vendor-name/plugin-name",
+    "name": "convey/plugin-name",
     "description": "This is a short description of what the plugin does.",
     "type": "wordpress-plugin",
     "keywords": ["wordpress", "plugin"],
-    "homepage": "http://example.com/",
-    "license": "GPL-2.0+",
+    "homepage": "https://convey.dk/",
+    "license": "Proprietary",
     "authors": [
       {
           "name": "Your Name",
           "email": "email@example.com",
-          "homepage": "http://example.com/"
+          "homepage": "https://convey.dk/"
       }
     ],
     "support": {
-        "issues": "http://example.com/",
-        "source": "http://example.com/"
+        "issues": "https://convey.dk/",
+        "source": "https://convey.dk/"
     },
+    ""
     "autoload": {
         "psr-4": {
-            "Vendor_Name\\Plugin_Name\\": "lib/"
+            "Convey\\Plugin_Name\\": "lib/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Vendor_Name\\Tests\\Plugin_Name\\": "tests/"
+            "Convey\\Tests\\Plugin_Name\\": "tests/"
         }
     },
+    "repositories": [
+        {
+          "type": "composer",
+          "url": "https://composer.convey.dk"
+        }
+    ],
     "require": {
         "php": ">=5.3.0",
         "composer/installers": "~1.0"
